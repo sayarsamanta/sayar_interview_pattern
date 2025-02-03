@@ -1,0 +1,40 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.Card {
+  color: #000;
+}
+.Container {
+  color: #000;
+  display: flex;
+  flex-wrap: wrap;
+  height: 500;
+}
+.CardImage {
+  height: 100;
+  width: 200;
+}
+.Page {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+}
+.SinglePage {
+  padding: 15px 15px;
+  border-width: 1px;
+  border-style: solid;
+  margin-left: 5px;
+}
+.SinglePageSelected {
+  padding: 15px 15px;
+  border-width: 1px;
+  border-style: solid;
+  margin-left: 5px;
+  border-color: red;
+}
+.Arrow {
+  padding: 15px 15px;
+  margin-left: 5px;
+}
